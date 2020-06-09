@@ -1,0 +1,37 @@
+.calbody{
+    width: 418px;
+    height: 450px;
+    background-color: lightseagreen;
+    margin-left: 457px;
+    margin-top: 36px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.screenbody{
+    width: 403px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.buttonbody{
+    width: 313px;
+    height: 442px;
+
+}
+.row{
+    margin-left: 20px;
+    width: 73px;
+    height: 46px;
+    margin-top: 25px
+
+}
+.row:hover{
+    color:black;
+    background: #faf6f2;
+}
+.operationbody{
+    float:right;
+    width:120px;
+    height: 450px;
+}

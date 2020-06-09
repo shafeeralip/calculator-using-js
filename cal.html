@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+    <title>calculator</title>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calbody">
+            <div id="screebody">
+                <input class="screenbody" type="text" id="screen">
+            </div>
+            <div class="operationbody">
+                <button class="row" onclick="cal('/')">/</button><br>
+                <button class="row"  onclick="cal('x')">x</button><br>
+                <button  class="row" onclick="cal('-')">-</button><br>
+                <button class="row"  onclick="cal('+')">+</button><br>
+                <button class="row"  onclick="equal()">=</button>
+            </div>
+            <div  class="buttonbody">
+                <div >
+                    <button class="row" onclick="clearscreen()">c</button>
+                    <button class="row" onclick="back()">back</button>
+                    <button class="row" onclick="cal('%')">%</button>
+                </div>
+                <div >
+                    <button class="row" onclick="cal(7)">7</button>
+                    <button class="row" onclick="cal(8)">8</button>
+                    <button class="row" onclick="cal(9)">9</button>
+                </div>
+                <div>
+                    <button class="row" onclick="cal(4)">4</button>
+                    <button class="row" onclick="cal(5)">5</button>
+                    <button class="row" onclick="cal(6)">6</button>
+                </div>
+                <div >
+                    <button class="row" onclick="cal(1)">1</button>
+                    <button class="row" onclick="cal(2)">2</button>
+                    <button class="row" onclick="cal(3)">3</button>
+                </div>
+                
+                    <div>
+                        <button class="row" onclick="cal('.')"> .</button>
+                        <button class="row" onclick="cal(0)">0</button>
+                        <button class="row" onclick="cal('00')">00</button>
+                    </div>
+                 </div>
+               
+            
+        </div>
+    </div>
+</body>
+</html>
